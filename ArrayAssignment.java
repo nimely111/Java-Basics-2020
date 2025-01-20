@@ -7,8 +7,8 @@ public class ArrayAssignment {
 
       public static void main(String[] args) {
             Scanner numCheck = new Scanner(System.in);
-            System.out.println("Please enter location index b/w 0 and 9");
-            System.out.println("Pleasse Enter your location index");
+            System.out.println("Please enter location is index b/w 0 and 9");
+            System.out.println("Pleasse Enter your location is index");
             // NOte that Arrays deals with indexing
             int index = numCheck.nextInt(); // without this code ou
 
@@ -45,34 +45,34 @@ public class ArrayAssignment {
             }
             switch (index) {
                   case 0:
-                        System.out.println("Your index is zero and, your location 1st Street");
+                        System.out.println("Your index is zero and, your location is 1st Street");
                         break;
                   case 1:
-                        System.out.println("YourYour index is one and, your location 2nd Street");
+                        System.out.println("YourYour index is one and, your location is 2nd Street");
                         break;
                   case 2:
-                        System.out.println("Your index is two and, your location 3rd Street");
+                        System.out.println("Your index is two and, your location is 3rd Street");
                         break;
                   case 3:
-                        System.out.println("Your index is three and, your location 4th Street");
+                        System.out.println("Your index is three and, your location is 4th Street");
                         break;
                   case 4:
-                        System.out.println("Your index is four your location 5th Street");
+                        System.out.println("Your index is four your location is 5th Street");
                         break;
                   case 5:
-                        System.out.println("Your index is five and, your location 6th Street");
+                        System.out.println("Your index is five and, your location is 6th Street");
                         break;
                   case 6:
-                        System.out.println("Your index is six and, your location 7th Street");
+                        System.out.println("Your index is six and, your location is 7th Street");
                         break;
                   case 7:
-                        System.out.println("Your index is seven and, your location 8th Street");
+                        System.out.println("Your index is seven and, your location is 8th Street");
                         break;
                   case 8:
-                        System.out.println("Your index is eight and, your location 9th Street");
+                        System.out.println("Your index is eight and, your location is 9th Street");
                         break;
                   case 9:
-                        System.out.println("This index is nine and, your location 10th Street");
+                        System.out.println("This index is nine and, your location is 10th Street");
                         break;
                   default:
                         System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& ");
