@@ -36,7 +36,7 @@ public class ArrayAssignment {
             int size = sinkorStreets2.length;
             System.out.println("The number of streets in your area: " + size);
 
-            // now I will print out my array in increment using while loop
+            // now I will print out my array in incremental order using while loop
             int i = 0;
             while (i < size) {
                   // I need to make a modification on this line of code
