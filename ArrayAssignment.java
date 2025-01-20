@@ -1,6 +1,6 @@
 
 /*In this assignment, I use the following topics: Scanner, if statement,
-while loop, switch, and avove all the powerful Arrays container*/
+while loop, switch, and avove all Arrays*/
 import java.util.Scanner;
 
 public class ArrayAssignment {
