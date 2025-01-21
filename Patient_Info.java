@@ -1,6 +1,3 @@
-
-package patient_info;
-
 public class Patient_Info {
 
     public static void main(String[] args) {
