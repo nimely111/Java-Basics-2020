@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-/**
- *
- * @author Prince Kossigbo
- */
 public class Fizz_Buzz {
 
     public static void main(String[] args) {
