@@ -23,27 +23,6 @@ public class ArrayDemo {
     System.out.println(myIntArray[8]);
     System.out.println(myIntArray[9]);
     // using the nested loop in inorder to achieve this
-
-    /*
-     * // using loops
-     * 
-     * int[] myIntArray = new int[10];
-     * for(int i = 0; i < myIntArray.length; i++){
-     * myIntArray[i] = i + 10;
-     * }
-     * printArray(myIntArray);
-     * 
-     * 
-     * // remove the first forloop and replace it with the second for loop
-     * }
-     * // every new method must be outside of the previous method
-     * public static void printArray(int[]array) // second method
-     * {
-     * for(int i = 0; i < array.length; i++)
-     * {
-     * System.out.println("Element " + i + ", value is " + array[i]);
-     * }
-     */
   }
 
 }
