@@ -1,8 +1,6 @@
 public class Patient_Info {
 
     public static void main(String[] args) {
-        // now let us declare our variable
-        // in this program we are going to create a patient data_base.
 
         String patientName = " John Brown";
         int patientAge = 21;
