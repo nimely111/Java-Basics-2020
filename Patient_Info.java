@@ -10,6 +10,6 @@ public class Patient_Info {
         System.out.println(
                 "The patient name is, " + patientName + " He is " + patientAge + patientAddress + patientDateOfBirth);
 
-    }/* the patientname is +patientName , He is + patientAge */
+    }
 
 }
