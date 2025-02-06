@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Background rectangle for logo container -->
+  <rect width="400" height="200" fill="white"/>
+  
+  <!-- Main circle element -->
+  <circle cx="100" cy="100" r="45" fill="#2B5BA9"/>
+  
+  <!-- Smaller circle representing forward movement/progress -->
+  <circle cx="130" cy="100" r="30" fill="#4A90E2"/>
+  
+  <!-- Company name text -->
+  <text x="180" y="110" font-family="Arial" font-size="48" font-weight="bold" fill="#2B5BA9">JESTIN</text>
+  
+  <!-- Corporation text -->
+  <text x="180" y="135" font-family="Arial" font-size="20" fill="#666666">CORPORATION</text>
+  
+  <!-- Abstract 'J' shape inside the circles -->
+  <path d="M95 70 Q105 70 105 85 L105 110 Q105 120 95 120 L85 120" 
+        stroke="white" 
+        stroke-width="8" 
+        fill="none"/>
+</svg>
