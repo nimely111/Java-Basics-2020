@@ -4,7 +4,7 @@ public class Fizz_Buzz {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter a value that is divisible by either 5 or 3 with remainder zero ");
+        System.out.println("Enter a value that is divisible by either 5 or 3 with zero remainder ");
         int number = scan.nextInt();
 
         if (number % 5 == 0 && number % 3 == 0) {
