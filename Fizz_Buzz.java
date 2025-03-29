@@ -17,7 +17,6 @@ public class Fizz_Buzz {
             System.out.println("Select a number that is divisible by 5 or 3");
         }
 
-        number++;
         System.out.println("The value you enter is: " + number);
 
         /*
