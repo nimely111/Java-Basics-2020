@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package fizzbuzz;
 
-/**
- *
- * @author Prince Kossigbo
- */
+package fizzbuzz;
+import java.util.Scanner;
+
 public class FizzBuzz {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please choose your country color code");
+        int country_code = scanner.nextInt();
+        
+       
+            if(country_code % 5 == 0 && country_code % 3 == 0){
+                System.out.println("FizzBuzz");
+            }else if(country_code % 5 == 0){
+                System.out.println("Fizz");
+            }else if(country_code % 3 == 0){
+                System.out.println("Buzz");
+            }else{
+                System.out.println("Your country code is not in the range");
+            } 
+                country_code++;
+                System.out.println("The value of your country code is: "+ country_code);
     }
     
 }

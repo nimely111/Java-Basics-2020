@@ -7,21 +7,18 @@ public class Fizz_Buzz {
         System.out.println("Please pick your country color number ");
         int number = scan.nextInt();
 
-        while (number <= 35) {
-
-            if (number % 5 == 0 && number % 3 == 0) {
-                System.out.println("Red White and Blue");
-            } else if (number % 5 == 0) {
-                System.out.println("Red");
-            } else if (number % 3 == 0) {
-                System.out.println("Blue");
-            } else {
-                System.out.println("Your color number is not in the range");
-            }
-
-            number++;
-            System.out.println("The value of myNumber is: " + number);
+        if (number % 5 == 0 && number % 3 == 0) {
+            System.out.println("FizzBuzz");
+        } else if (number % 5 == 0) {
+            System.out.println("Fizz");
+        } else if (number % 3 == 0) {
+            System.out.println("Buzz");
+        } else {
+            System.out.println("Select a number that is divisible by 5 or 3");
         }
+
+        number++;
+        System.out.println("The value you enter is: " + number);
 
         /*
          * switch(number){

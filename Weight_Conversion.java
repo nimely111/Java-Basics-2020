@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Weight_Conversion {
 
     public static void main(String[] args) {
-        // we going to as our user for their weight in pounds
+        // we are going to ask our users for their weight in pounds
         // and convert it to kilogram
         Scanner scanner = new Scanner(System.in);
         System.out.println("Weight in (Lbs): ");
